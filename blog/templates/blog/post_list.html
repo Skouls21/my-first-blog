@@ -10,7 +10,6 @@
         <div>
             <h1><a href="/">First site by Arthur Ryhas CO.</a></h1>
         </div>
-s
         {% for post in posts %}
             <div>
                 <p>published: {{ post.published_date }}</p>
@@ -18,10 +17,5 @@ s
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
-        <div>
-            <p>published: 12.02.2022, 12:38</p>
-            <h2><a href="">My second post</a></h2>
-            <p>The people who are crazy enough to think they can change the world are the ones who do (Steve Jobs)</p>
-        </div>
     </body>
 </html>
